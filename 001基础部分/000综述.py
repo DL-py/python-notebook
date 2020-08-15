@@ -1,0 +1,9 @@
+"""
+python基础教程：
+参考文档网址：
+https://www.runoob.com/python/python-func-zip.html
+python中可变类型和不可变类型：
+https://www.cnblogs.com/shiyublog/p/10809953.html
+python中常用的中文编码名称:
+https://zhidao.baidu.com/question/521343129.html
+"""
