@@ -5,6 +5,9 @@ https://www.runoob.com/python3/python3-func-open.html
 *str类型与bytes类型的转换：
 https://www.cnblogs.com/shengulong/p/11079291.html
 """
+import os
+import shutil
+
 """
 1.打开文件：open()
 2.读取文件：
@@ -25,18 +28,24 @@ readline(num):num表示读取的字节数
 """
 """
 文件与文件夹：
-import os
 文件操作：
 1.重命名：os.rename(旧名, 新名)
 2.删除：os.remove(name)
 文件夹操作：
-1.创建文件夹:os.mkdir(name)
-2.删除文件夹:os.rmdir(name)
-3.获得当前文件的目录:os.getcwd()
-4.改变默认目录:os.chdir(源目录)
-5.获取目录列表：os.listdir(目标)
-6.重命名文件夹os.rename(旧名, 新名)
+*.创建文件夹:os.mkdir(name)
+*.删除文件夹:os.rmdir(name)  # 当文件夹不为空时则无法删除
+*.删除文件夹及其子文件：shutil.rmtree(path)
+*.获得当前文件的目录:os.getcwd()
+*.改变默认目录:os.chdir(源目录)
+*.获取目录列表：os.listdir(目标)
+*.重命名文件夹os.rename(旧名, 新名)
 """
+
+
+
+
+
+
 
 
 
